@@ -1,0 +1,17 @@
+# dependencies
+**/node_modules/
+
+# build outputs
+frontend/dist/
+backend/dist/
+
+# env and logs
+**/.env
+*.log
+backend/audit.log
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
