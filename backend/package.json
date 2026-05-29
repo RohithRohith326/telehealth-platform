@@ -1,0 +1,17 @@
+{
+  "name": "telehealth-backend",
+  "version": "1.0.0",
+  "description": "Telehealth platform backend - LiveKit token, streaming, moderation",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node run.js",
+    "dev": "node --watch run.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^4.21.0",
+    "livekit-server-sdk": "^2.6.0"
+  }
+}
