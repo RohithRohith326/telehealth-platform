@@ -27,9 +27,7 @@ function getTrackSlot(track) {
 }
 
 /** Backend API base URL for token and other API calls */
-const RAW_API_BASE =
-  import.meta.env.VITE_API_URL || "https://karthik-project.onrender.com";
-const API_BASE = "http://127.0.0.1:3000";
+const API_BASE = import.meta.env.VITE_API_URL;
 
 export function useLiveKitRoom() {
   const [room, setRoom] = useState(null);
